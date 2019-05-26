@@ -26,8 +26,7 @@ client.on('message', message => {
          .setDescription(`**❓❔❗️❕وش مميزات البوت❗️❕❓❔**
         **__1-__:books:🧐 بوت عربي🧐:books:
          __2-__:white_check_mark: :part_alternation_mark:️ استخدامه جدا سهل:part_alternation_mark:️:white_check_mark: 
-         __3-__:gear:️صيانه كل يوم:gear:️
-         __4-__:money_with_wings: مجاني :money_with_wings:**`)
+         __3-__:money_with_wings: مجاني :money_with_wings:**`)
    message.author.sendEmbed(embed)
    
    }
@@ -304,7 +303,7 @@ const prefix = ".";
   .addField("User:",  `[ + ${user.tag} + ]`)
   .addField("By:", `[  + ${message.author.tag} +  ]`)  // Alpha Codes Ghost
   .addField("Reason:", `[ + ${reason} +  ]`)
-  client.channels.get("519259147967922176").send({embed : banembed})
+  client.channels.get("393461450548445184").send({embed : banembed})
 }
 });
 
@@ -504,7 +503,7 @@ if (command == "sayem") {
 });
 
 
-const developers = ["472413769700474901"]
+const developers = ["393461450548445184"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' '); // Alpha Codes Ghost
       if (!developers.includes(message.author.id)) return;
@@ -539,17 +538,6 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 });
 
 
-
-client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`NewBot Update 1.0`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`.help | Server ${client.guilds.size}`,"http://twitch.tv/Dream")
-client.user.setStatus("dnd") 
-});
 
    
 client.on("message", message => {
@@ -592,18 +580,12 @@ message.channel.send(`This avatar For ${user} link : ${user.avatarURL}`);
 }
 });
 
-client.on('ready',  () => {
-    console.log('تم تشغيل :Broadcast  ');
-    console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
-    console.log(`Logged in as * [ " ${client.user.username} " ] Users! [ " ${client.users.size} " ]`);
-    console.log(`Logged in as * [ " ${client.user.username} " ] channels! [ " ${client.channels.size} " ]`);
-  });
 
   client.on('message', message => {
     if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('adminbc')){
-if(!message.author.id === '476185102922285066') return;
+if(!message.author.id === '393461450548445184') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -615,4 +597,4 @@ m.sendMessage(args)
      }
      });
 
-client.login(process.env.TOKEN);
+client.login(NTgyMjAyODQzMjEwMTg2NzYy.XOqYqw.fO837gqyJVifkwJQpBaHb08EzXA);
