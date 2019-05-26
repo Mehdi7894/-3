@@ -67,7 +67,7 @@ SoOn`)
   
   
    client.on("message", message => {
-      if (message.content === ".help")   // Alpha Codes Ghost
+      if (message.content === ".help"){   // Alpha Codes Ghost
        const embed = new Discord.RichEmbed() 
            .setColor("#57FEFF")
            .setDescription(`**⚙️اوامر الادارة|Administrator⚙️**
@@ -597,4 +597,4 @@ m.sendMessage(args)
      }
      });
 
-client.login(NTgyMjAyODQzMjEwMTg2NzYy.XOqYqw.fO837gqyJVifkwJQpBaHb08EzXA);
+client.login(NTgyMjAxNTYwOTQ0MzQ1MTQ4.XOqinQ.t4Em5WkckZ5Etjra8W6BKYGAs8k);
